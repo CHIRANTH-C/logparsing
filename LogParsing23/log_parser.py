@@ -63,4 +63,4 @@ def send_email(email_address,password,report1):
 logs_list = read_logs("logs.txt")
 found_logs = parse_logs(logs_list,regexp=r'(.*) W (.*): (.*): (.*10091.*)')
 generate_report(found_logs)
-send_email('chiranthchandrashekar123@gmail.com','cjwjvuyxhjcxnmzq','report.txt')
+send_email('user@email.com','password','report.txt')

@@ -60,4 +60,4 @@ def send_email(email_address,password,report1):
 carts_json = read_json("carts.json")
 parsed_json , total_cart_cost = parse_json(carts_json)
 generate_report(parsed_json , total_cart_cost)
-send_email('chiranthchandrashekar123@gmail.com','cjwjvuyxhjcxnmzq','report_for_carts_json.txt')
+send_email('user@email.com','password','report_for_carts_json.txt')

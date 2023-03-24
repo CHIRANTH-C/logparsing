@@ -13,8 +13,8 @@ def send_email(subject, body, sender, recipients, password):
 
 subject = "Email Subject"
 body = "This is the body of the text message"
-sender = "chiranthchandrashekar123@gmail.com"
-recipients = ["chiranthchandrashekar123@gmail.com", "chiranthchandrashekar123@gmail.com"]
-password = "cjwjvuyxhjcxnmzq"
+sender = "user@email.com"
+recipients = ["user@email.com", "user@email.com"]
+password = "password"
 
 send_email(subject, body, sender, recipients, password)

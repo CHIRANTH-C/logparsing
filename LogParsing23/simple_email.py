@@ -1,8 +1,8 @@
 import smtplib
 from email.message import EmailMessage
 
-EMAIL_ADDRESS = 'chiranthchandrashekar123@gmail.com'
-EMAIL_PASSWORD = 'cjwjvuyxhjcxnmzq'
+EMAIL_ADDRESS = 'user@email.com'
+EMAIL_PASSWORD = 'password'
 
 msg = EmailMessage()
 msg['Subject'] = 'Attaching the logs !'

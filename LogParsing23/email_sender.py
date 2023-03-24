@@ -10,9 +10,9 @@ The mail is sent using Python SMTP library.
 Thank You
 '''
 #The mail addresses and password
-sender_address = 'chiranthchandrashekar123@gmail.com'
-sender_pass = 'cjwjvuyxhjcxnmzq'
-receiver_address = 'chiranthchandrashekar123@gmail.com'
+sender_address = 'user@email.com'
+sender_pass = 'password'
+receiver_address = 'user@email.com'
 #Setup the MIME
 message = MIMEMultipart()
 message['From'] = sender_address

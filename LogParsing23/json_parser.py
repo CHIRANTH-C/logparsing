@@ -58,4 +58,4 @@ def send_email(email_address,password,report1):
 users_json = read_json("users.json")
 parsed_json = parse_json(users_json)
 generate_report(parsed_json)
-send_email('chiranthchandrashekar123@gmail.com','cjwjvuyxhjcxnmzq','report_for_json.txt')
+send_email('user@email.com','password','report_for_json.txt')
